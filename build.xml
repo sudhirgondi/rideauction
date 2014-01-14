@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="jpetstore" basedir="." default="usage">
+	<target name="usage">
+		<junitreport>
+			<fileset dir="./target/surefire-reports/testng-native-results/junitreports">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="./target/surefire-reports/html" />
+		</junitreport>
+	</target>
+</project>

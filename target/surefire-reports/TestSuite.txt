@@ -1,0 +1,2185 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 708, Failures: 227, Errors: 0, Skipped: 0, Time elapsed: 39,878.735 sec <<< FAILURE!
+testApplyCouponNegative(com.sav.ra.test.racouponadapter.TestApplyCoupon)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.sav.ra.test.racouponadapter.TestApplyCoupon.testApplyCouponNegative(TestApplyCoupon.java:60)
+
+testApplyCouponNegative(com.sav.ra.test.racouponadapter.TestApplyCoupon)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.sav.ra.test.racouponadapter.TestApplyCoupon.testApplyCouponNegative(TestApplyCoupon.java:60)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 11.947 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 12.033 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 11.996 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: c882cc32-cafc-0a40-a368-c344b555ff67
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:100)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4165215718456627834webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4165215718456627834webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4165215718456627834webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4165215718456627834webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4165215718456627834webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 1.176 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 33 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 8f288c89-1241-d84a-ba80-b7f4a895394f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:65)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1650483652042018830webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1650483652042018830webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1650483652042018830webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1650483652042018830webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1650483652042018830webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 1.158 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 24 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 2ec1cd2a-ca64-c743-ab1c-bcc8bc3ef9e4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:65)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3189173202793942828webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3189173202793942828webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3189173202793942828webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3189173202793942828webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3189173202793942828webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 1.142 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 0c5260ef-609c-9f45-9542-7a00f3652242
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:65)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous8533240055370646218webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous8533240055370646218webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous8533240055370646218webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous8533240055370646218webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous8533240055370646218webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 1.136 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 560b44ba-2835-7c4b-955f-ee621fea50b5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:65)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7003956290024859311webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7003956290024859311webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7003956290024859311webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7003956290024859311webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7003956290024859311webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 28,421.353 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 6ad65a22-2bbf-724d-821b-449bad830e9f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:65)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6552259122201581459webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6552259122201581459webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6552259122201581459webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6552259122201581459webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6552259122201581459webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 14.225 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: not <0>
+     got: <0>
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:110)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 14.536 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 11.933 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 14.43 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 15.038 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 14.478 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 16.876 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 14.389 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 14.61 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.675 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 14.06 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 15.523 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: not <0>
+     got: <0>
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:110)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:134)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.432 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.205 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.175 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.276 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.713 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.285 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.331 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.338 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.317 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.124 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.212 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.48 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.467 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.189 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.232 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.393 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.336 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.305 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.577 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.599 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.333 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.768 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.408 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideFromAirport(com.sav.ra.test.bid.TestBidOnRideFromAirport)  Time elapsed: 13.502 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideFromAirport.testBidOnRideFromAirport(TestBidOnRideFromAirport.java:99)
+
+testBidOnRideHourlyInTheCityNegative(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 1.136 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: b4fe29a3-3477-7c43-bce8-06aa927ea424
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityNegative(TestBidOnRideHourlyInTheCity.java:150)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous475143294331107118webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous475143294331107118webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous475143294331107118webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous475143294331107118webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous475143294331107118webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.933 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 7.835 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.062 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.818 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.535 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.647 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.712 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.066 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.896 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.067 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 7.96 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.609 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.931 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.354 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.585 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.815 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.887 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.973 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.376 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.019 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 7.831 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.72 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.685 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 11.686 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.801 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.951 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.006 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.891 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 8.101 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 1.262 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 81 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: e28d9cd8-d7db-d941-a7de-ef8747bed8d6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4003830504150129546webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4003830504150129546webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4003830504150129546webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4003830504150129546webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4003830504150129546webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 49.969 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#garantpricevalue"}
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 5f913db2-d20c-9844-95d3-f93cf3e87e8f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:396)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:97)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"#garantpricevalue"}
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5235178517393765825webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8891)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5235178517393765825webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8900)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5235178517393765825webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5235178517393765825webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5235178517393765825webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 1.239 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 4083f65c-03d5-d84f-81bb-33c7f2b1d3c6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7541591557163374349webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7541591557163374349webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7541591557163374349webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7541591557163374349webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous7541591557163374349webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 1.187 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 68acce10-34a5-a84e-8587-8277fef7fb76
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4913326976297773011webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4913326976297773011webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4913326976297773011webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4913326976297773011webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4913326976297773011webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.312 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.279 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 51.693 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#garantpricevalue"}
+Command duration or timeout: 6 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: e0ecc9bf-58f0-a44e-9e03-6318cc5ef36d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:396)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:97)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:100)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"#garantpricevalue"}
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4884934193731968510webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8891)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4884934193731968510webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8900)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4884934193731968510webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4884934193731968510webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous4884934193731968510webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.887 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.482 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 10.613 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.848 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.7 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.514 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.862 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.261 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.912 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.989 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.516 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.459 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.846 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.978 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.774 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.234 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.555 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.764 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity)  Time elapsed: 9.728 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyInTheCity.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyInTheCity.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.186 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 8.877 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.006 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.492 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.272 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.493 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.01 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.897 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.903 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 17.583 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 8.056 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.653 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.366 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.524 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.764 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.941 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.29 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.63 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.03 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.829 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 8.968 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.875 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.31 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.016 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.136 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.567 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.585 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 15.495 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:106)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 8.783 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 10.737 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 9.866 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.58 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.541 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.612 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.592 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.451 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.722 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.677 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.617 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.235 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.516 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.507 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.966 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 9.174 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.586 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.658 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 14.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.324 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.551 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.39 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:78)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 1.269 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 9 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 3c3b8d7c-d39b-6b41-998e-df97532ed976
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2619421979709147584webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2619421979709147584webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2619421979709147584webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2619421979709147584webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2619421979709147584webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 1.125 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 893e89d7-a91a-d846-8fc2-c06d6800d6cf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3826970422088850817webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3826970422088850817webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3826970422088850817webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3826970422088850817webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3826970422088850817webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 1.129 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 38c5e3e6-26c1-bc43-bb78-55e6721d1d5f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous156890619213537532webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous156890619213537532webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous156890619213537532webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous156890619213537532webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous156890619213537532webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 9.104 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:72)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.74 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.815 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.92 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.469 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRideHourlyInTheCityPositive(com.sav.ra.test.bid.TestBidOnRideHourlyOutside)  Time elapsed: 13.757 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sav.ra.test.bid.TestBidOnRideHourlyOutside.testBidOnRideHourlyInTheCityPositive(TestBidOnRideHourlyOutside.java:81)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.765 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 15.061 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.786 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.434 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.531 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.743 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.636 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.065 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.696 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 15.059 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.468 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 7.938 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:71)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.867 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.625 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.297 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.866 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 7.985 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:71)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.602 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 15.2 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 15.36 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.687 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.93 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:112)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 7.737 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 39a5df09-6031-0943-9c2a-df441b61bee5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:72)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2840812235989009894webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2840812235989009894webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2840812235989009894webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2840812235989009894webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous2840812235989009894webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 1.152 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 481e0704-c65f-ba41-b7c7-ce5a4f24aeca
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6044736551681957549webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6044736551681957549webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6044736551681957549webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6044736551681957549webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6044736551681957549webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 7.63 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:71)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.324 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 784b4534-f9d7-6848-a2d7-0994a69abe92
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:78)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1147270341378015044webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1147270341378015044webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1147270341378015044webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1147270341378015044webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous1147270341378015044webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 9.197 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:71)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.997 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: a26969bc-1f08-a148-8eb9-11f27711b786
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:78)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6833468512791570776webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6833468512791570776webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6833468512791570776webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6833468512791570776webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6833468512791570776webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 9.142 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:71)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.26 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:77)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.365 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:77)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.436 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:77)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.502 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:77)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.522 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:77)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 14.018 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:77)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.488 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:77)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 13.319 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:77)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 7.431 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:134)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:55)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 9.175 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:71)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 1.145 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 468c8b38-4717-a140-86a9-cd9fbf4ee38d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6395313450753729912webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6395313450753729912webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6395313450753729912webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6395313450753729912webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous6395313450753729912webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 1.194 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 5117bb8c-bf2c-4d43-a838-dc0043f5a66d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous108719252212151633webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous108719252212151633webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous108719252212151633webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous108719252212151633webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous108719252212151633webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 1.134 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 3b394204-0670-9847-b2a4-49b7427f94b9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3267407678943856527webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3267407678943856527webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3267407678943856527webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3267407678943856527webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous3267407678943856527webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRidePointToPointPositive(com.sav.ra.test.bid.TestBidOnRidePointToPoint)  Time elapsed: 1.133 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Session ID: 03955b3c-cf20-7b40-ac21-053b389aa9d1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=26.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.sav.ra.framework.WebDriverTest.verifyAndClickElement(WebDriverTest.java:135)
+	at com.sav.ra.test.bid.TestBidOnRidePointToPoint.testBidOnRidePointToPointPositive(TestBidOnRidePointToPoint.java:59)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
+System info: host: 'users-MacBook-Pro-2.local', ip: '192.168.1.107', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.1', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5871801024623869955webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8210)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5871801024623869955webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10827)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5871801024623869955webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5871801024623869955webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/3r/pyh6fkjj3k78lhxjrpryl7c80000gn/T/anonymous5871801024623869955webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 7.971 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:77)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 7.916 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:77)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 9.919 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: not <0>
+     got: <0>
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:110)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 10.241 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 7.693 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:77)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 10.081 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 10.908 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 10.598 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 10.835 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 10.085 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 10.972 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 10.704 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:117)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 9.382 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:77)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 9.869 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:77)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 12.033 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: not <0>
+     got: <0>
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at com.sav.ra.shared.RideauctionSharedTestsAndUtils.bidOrBuyPositive(RideauctionSharedTestsAndUtils.java:110)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:113)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 9.341 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:77)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 8.999 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:77)
+
+testBidOnRideToAirportPositive(com.sav.ra.test.bid.TestBidOnRideToAirport)  Time elapsed: 9.282 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.sav.ra.framework.WebDriverTest.verifyElementPresent(WebDriverTest.java:106)
+	at com.sav.ra.test.bid.TestBidOnRideToAirport.testBidOnRideToAirportPositive(TestBidOnRideToAirport.java:77)
+
+testGetCouponPositive(com.sav.ra.test.racouponadapter.TestGetGoupon)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<22> but was:<13>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at com.sav.ra.test.racouponadapter.TestGetGoupon.testGetCouponPositive(TestGetGoupon.java:47)
+
+testGetCouponPositive(com.sav.ra.test.racouponadapter.TestGetGoupon)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<32> but was:<23>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at com.sav.ra.test.racouponadapter.TestGetGoupon.testGetCouponPositive(TestGetGoupon.java:47)
+
+testIsCouponValidNegative(com.sav.ra.test.racouponadapter.TestIsCouponValid)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertFalse(Assert.java:68)
+	at org.junit.Assert.assertFalse(Assert.java:79)
+	at com.sav.ra.test.racouponadapter.TestIsCouponValid.testIsCouponValidNegative(TestIsCouponValid.java:43)
+
+testIsCouponValidNegative(com.sav.ra.test.racouponadapter.TestIsCouponValid)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertFalse(Assert.java:68)
+	at org.junit.Assert.assertFalse(Assert.java:79)
+	at com.sav.ra.test.racouponadapter.TestIsCouponValid.testIsCouponValidNegative(TestIsCouponValid.java:43)
+
+testIsCouponValidNegative(com.sav.ra.test.racouponadapter.TestIsCouponValid)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertFalse(Assert.java:68)
+	at org.junit.Assert.assertFalse(Assert.java:79)
+	at com.sav.ra.test.racouponadapter.TestIsCouponValid.testIsCouponValidNegative(TestIsCouponValid.java:43)
+

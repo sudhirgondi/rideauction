@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FunctionalTestCases">
+	<test name="module1Tests">
+	<groups>
+		<run>
+			<exclude name="regressionTestCases"></exclude>
+		</run>
+	</groups>
+		<packages>
+			<package name="com.ziffow.training.countChar"></package>
+			<package name="com.ziffow.training.numbers"></package>
+		</packages>
+	</test>
+
+	<test name="module2Tests">
+		<packages>
+			<package name="com.ziffow.training.reversestr"></package>
+			<package name="com.ziffow.training.test"></package>
+		</packages>
+	</test>
+</suite>

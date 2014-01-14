@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FunctionalTestCases" parallel="methods" thread-count="1">
+	<test name="module1Tests">
+		<classes>
+			<class name="com.sav.ra.test.bid.TestBidOnRideAirport"></class>
+			<class name="com.sav.ra.test.bid.TestBidOnRideHourly"></class>
+		</classes>
+	</test>
+	
+	<test name="module2Tests">
+		<classes>
+			<class name="com.sav.ra.test.contactus.TestContactUsLinkAndPage"></class>
+		</classes>
+	</test>
+</suite>
